@@ -1,0 +1,290 @@
+{
+    "episodes": [
+        {
+            "episode_id": 1,
+            "title": "Angel Attack",
+            "title_japanese": "使徒、襲来",
+            "title_romanji": "Shito, Shuurai ",
+            "aired": "1995-10-04T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=12768"
+        },
+        {
+            "episode_id": 2,
+            "title": "The Beast",
+            "title_japanese": "見知らぬ、天井",
+            "title_romanji": "Mishiranu, Tenjou ",
+            "aired": "1995-10-11T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=12771"
+        },
+        {
+            "episode_id": 3,
+            "title": "A Transfer",
+            "title_japanese": "鳴らない、電話",
+            "title_romanji": "Naranai, Denwa ",
+            "aired": "1995-10-18T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=12863"
+        },
+        {
+            "episode_id": 4,
+            "title": "Hedgehog's Dilemma",
+            "title_japanese": "雨、逃げ出した後",
+            "title_romanji": "Ame, Nigedashita Ato ",
+            "aired": "1995-10-25T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=15243"
+        },
+        {
+            "episode_id": 5,
+            "title": "Rei I",
+            "title_japanese": "レイ、心のむこうに",
+            "title_romanji": "Rei, Kokoro no Mukou ni ",
+            "aired": "1995-11-01T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8153"
+        },
+        {
+            "episode_id": 6,
+            "title": "Rei II",
+            "title_japanese": "決戦、第3新東京市",
+            "title_romanji": "Kessen, Dai 3 Shin Tokyo Shi ",
+            "aired": "1995-11-08T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8155"
+        },
+        {
+            "episode_id": 7,
+            "title": "A Human Work",
+            "title_japanese": "人の造りしもの",
+            "title_romanji": "Hito no Tsukurishi Mono ",
+            "aired": "1995-11-15T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=17997"
+        },
+        {
+            "episode_id": 8,
+            "title": "Asuka Strikes!",
+            "title_japanese": "アスカ、来日",
+            "title_romanji": "Asuka, Rainichi ",
+            "aired": "1995-11-22T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8240"
+        },
+        {
+            "episode_id": 9,
+            "title": "Both of You, Dance Like You Want to Win!",
+            "title_japanese": "瞬間、心、重ねて",
+            "title_romanji": "Shunkan, Kokoro, Kasanete ",
+            "aired": "1995-11-29T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8261"
+        },
+        {
+            "episode_id": 10,
+            "title": "Magma Diver",
+            "title_japanese": "マグマダイバー",
+            "title_romanji": "Magmadiver ",
+            "aired": "1995-12-06T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8399"
+        },
+        {
+            "episode_id": 11,
+            "title": "The Day Tokyo-3 Stood Still",
+            "title_japanese": "静止した闇の中で",
+            "title_romanji": "Seishi Shita Yami no Naka de ",
+            "aired": "1995-12-13T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=18001"
+        },
+        {
+            "episode_id": 12,
+            "title": "She said, 'Don't make others suffer for your personal hatred.'",
+            "title_japanese": "奇跡の価値は",
+            "title_romanji": "Kiseki no Kachi wa ",
+            "aired": "1995-12-20T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=24363"
+        },
+        {
+            "episode_id": 13,
+            "title": "Lilliputian Hitcher",
+            "title_japanese": "使徒、侵入",
+            "title_romanji": "Shito, Shinnyuu ",
+            "aired": "1995-12-27T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8767"
+        },
+        {
+            "episode_id": 14,
+            "title": "Weaving a Story",
+            "title_japanese": "ゼーレ、魂の座",
+            "title_romanji": "Seele, Tamashii no Za ",
+            "aired": "1996-01-03T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8828"
+        },
+        {
+            "episode_id": 15,
+            "title": "Those women longed for the touch of others' lips, and thus invited their kisses.",
+            "title_japanese": "嘘と沈黙",
+            "title_romanji": "Uso to Chinmoku ",
+            "aired": "1996-01-10T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8829"
+        },
+        {
+            "episode_id": 16,
+            "title": "Splitting of the Breast",
+            "title_japanese": "死に至る病、そして",
+            "title_romanji": "Shi ni Itaru Yamai, Soshite ",
+            "aired": "1996-01-17T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8831"
+        },
+        {
+            "episode_id": 17,
+            "title": "Fourth Child",
+            "title_japanese": "四人目の適格者",
+            "title_romanji": "Yonin Me no Tekikakusha ",
+            "aired": "1996-01-24T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8836"
+        },
+        {
+            "episode_id": 18,
+            "title": "Ambivalence",
+            "title_japanese": "命の選択を",
+            "title_romanji": "Inochi no Sentaku wo ",
+            "aired": "1996-01-31T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=8838"
+        },
+        {
+            "episode_id": 19,
+            "title": "Introjection",
+            "title_japanese": "男の戰い",
+            "title_romanji": "Otoko no Tatakai ",
+            "aired": "1996-02-07T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=18003"
+        },
+        {
+            "episode_id": 20,
+            "title": "WEAVING A STORY 2: oral stage",
+            "title_japanese": "心のかたち 人のかたち",
+            "title_romanji": "Kokoro no Katachi, Hito no Katachi ",
+            "aired": "1996-02-14T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=18004"
+        },
+        {
+            "episode_id": 21,
+            "title": "He was aware that he was still a child.",
+            "title_japanese": "ネルフ、誕生",
+            "title_romanji": "NERV, Tanjou ",
+            "aired": "1996-02-21T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=9032"
+        },
+        {
+            "episode_id": 22,
+            "title": "Don't Be.",
+            "title_japanese": "せめて、人間らしく",
+            "title_romanji": "Semete, Ningen Rashiku ",
+            "aired": "1996-02-28T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=9036"
+        },
+        {
+            "episode_id": 23,
+            "title": "Rei III",
+            "title_japanese": "涙",
+            "title_romanji": "Namida ",
+            "aired": "1996-03-06T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=9262"
+        },
+        {
+            "episode_id": 24,
+            "title": "The Beginning and the End, or 'Knockin' on Heaven's Door'",
+            "title_japanese": "最後のシ者",
+            "title_romanji": "Saigo no Shisha ",
+            "aired": "1996-03-13T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=9263"
+        },
+        {
+            "episode_id": 25,
+            "title": "Do you love me?",
+            "title_japanese": "終わる世界",
+            "title_romanji": "Owaru Sekai ",
+            "aired": "1996-03-20T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=9266"
+        },
+        {
+            "episode_id": 26,
+            "title": "Take care of yourself.",
+            "title_japanese": "世界の中心でアイを叫んだけもの",
+            "title_romanji": "Sekai no Chuushin de Ai wo Sakenda Kemono ",
+            "aired": "1996-03-27T00:00:00+00:00",
+            "filler": false,
+            "recap": false,
+            "video_url": null,
+            "forum_url": "https://myanimelist.net/forum/?topicid=9268"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "characters": [{
+        "name": "碇 シンジ",
+        "romanizedName": "Shinji Ikari",
+        "birthdate": "2001-06-06T00:00:00.000Z",
+        "affiliations": ["Nerv"],
+        "height": 152
+    }, {
+        "name": "葛城 ミサト",
+        "romanizedName": "Misato Katsuragi",
+        "birthdate": "1986-12-08T00:00:00.000Z",
+        "affiliations": ["Nerv", "Gehirn"],
+        "height": 173
+    }, {
+        "name": "綾波レイ",
+        "romanizedName": "Rei Ayanami",
+        "affiliations": ["Nerv"],
+        "height": 152
+    }, {
+        "name": "惣流・アスカ・ラングレー",
+        "romanizedName": "Asuka Langley Soryu",
+        "birthdate": "2001-12-04T00:00:00.000Z",
+        "affiliations": ["Nerv"],
+        "height": 155
+    }, {
+        "name": "赤木 リツコ",
+        "romanizedName": "Ritsuko Akagi",
+        "birthdate": "1985-11-21T00:00:00.000Z",
+        "affiliations": ["Nerv", "Gehirn"],
+        "height": 173
+    }, {
+        "name": "碇 ゲンドウ",
+        "romanizedName": "Gendo Ikari",
+        "birthdate": "1967-04-29T00:00:00.000Z",
+        "affiliations": ["Nerv", "Gehirn", "Seele"],
+        "height": 195
+    }, {
+        "name": "加持 リョウジ",
+        "romanizedName": "Ryoji Kaji",
+        "birthdate": "1985-06-17T00:00:00.000Z",
+        "affiliations": ["Nerv", "Seele"],
+        "height": 189
+    }, {
+        "name": "鈴原 トウジ",
+        "romanizedName": "Toji Suzuhara",
+        "birthdate": "2001-12-26T00:00:00.000Z",
+        "affiliations": ["Nerv"],
+        "height": 160
+    }, {
+        "name": "相田 ケンスケ",
+        "romanizedName": "Kensuke Aida",
+        "birthdate": "2001-09-12T00:00:00.000Z",
+        "affiliations": [],
+        "height": 149
+    }, {
+        "name": "洞木 ヒカリ",
+        "romanizedName": "Hikari Horaki",
+        "birthdate": "2002-02-18T00:00:00.000Z",
+        "affiliations": [],
+        "height": 156
+    }, {
+        "name": "伊吹マヤ",
+        "romanizedName": "Maya Ibuki",
+        "birthdate": "1991-07-11T00:00:00.000Z",
+        "affiliations": ["Nerv"],
+        "height": 167
+    }, {
+        "name": "青葉シゲル",
+        "romanizedName": "Shigeru Aoba",
+        "affiliations": ["Nerv"],
+        "height": 187
+    }, {
+        "name": "渚カヲル",
+        "romanizedName": "Kaworu Nagisa",
+        "birthdate": "2000-09-13T00:00:00.000Z",
+        "affiliations": ["Nerv", "Seele"],
+        "height": 156
+    }, {
+        "name": "碇ユイ",
+        "romanizedName": "Yui Ikari",
+        "birthdate": "1977-03-30T00:00:00.000Z",
+        "affiliations": ["Nerv", "Gehirn"],
+        "height": 160
+    }, {
+        "name": "ペンペン",
+        "romanizedName": "Pen Pen",
+        "affiliations": [],
+        "height": 63
+    }]
+}
