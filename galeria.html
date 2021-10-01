@@ -1,54 +1,63 @@
-<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" gallery="IE=edge">
     <meta name="viewport" gallery="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&amp;display=swap" rel="stylesheet">
     <title>Página de Evangelion</title>
     <style>
-        html{
+        html {
             height: 100%;
-            /* Permite utilizar el alto completo del documento. */
         }
-        body{
-            margin:0;
+
+        body {
+            margin: 0;
             height: 100%;
             width: 100%;
         }
-        nav > ul > li{
+
+        nav>ul>li {
             display: inline;
             font-size: x-large;
             margin: 1.2rem;
             font-style: italic;
             text-decoration: none;
         }
-        nav > ul{
+
+        nav>ul {
             text-align: center;
         }
-        a, a:hover{
+
+        a,
+        a:hover {
             color: #DF9C38;
             font-family: 'Inconsolata', monospace;
         }
-        .slider > img{
+
+        .slider>img {
             display: block;
             margin: auto;
             width: 60%;
         }
-        .gallery{
+
+        .gallery {
             padding: 1rem;
             display: flex;
         }
-        .gallery > img{
+
+        .gallery>img {
             margin: auto;
-                        
+
         }
-        .content{
+
+        .content {
             margin: 0.5rem;
         }
-        #gallery{
+
+        #gallery {
             height: 100%;
             display: grid;
             grid-template-columns: repeat(4, 200px);
@@ -56,21 +65,24 @@
             margin: auto;
             width: 80%;
         }
-        .footer{
+
+        .footer {
             display: block;
             height: 4rem;
-            background: rgb(238,174,202);
-            background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            background: rgb(238, 174, 202);
+            background: linear-gradient(180deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
             padding: 1rem;
         }
-        #gallery > img{
+
+        #gallery>img {
             max-width: 200px;
         }
     </style>
 </head>
-<body >
+
+<body>
     <header>
-        <audio src="./themesong.mp3" autoplay></audio>
+        <audio src="./themesong.mp3" autoplay=""></audio>
         <img src="logo.png" alt="Logo">
     </header>
     <nav>
@@ -83,48 +95,37 @@
     </nav>
     <div class="content">
         <div id="gallery">
+            <img src="./assets/backgrounds/1.jpg"><img src="./assets/backgrounds/2.jpg"><img
+                src="./assets/backgrounds/3.jpg"><img src="./assets/backgrounds/4.jpg"><img
+                src="./assets/backgrounds/5.jpg"><img src="./assets/images/1.jpg"><img src="./assets/images/2.jpg"><img
+                src="./assets/images/3.jpg"><img src="./assets/images/4.jpg"><img src="./assets/images/5.jpg"><img
+                src="./assets/images/6.jpg"><img src="./assets/images/7.jpg"><img src="./assets/characters/1.png"><img
+                src="./assets/characters/2.png"><img src="./assets/characters/3.png"><img
+                src="./assets/characters/4.png"><img src="./assets/characters/5.png"><img
+                src="./assets/characters/6.png"><img src="./assets/characters/7.png"><img
+                src="./assets/characters/8.png"><img src="./assets/characters/9.png"><img
+                src="./assets/characters/10.png"><img src="./assets/characters/11.png"><img
+                src="./assets/characters/12.png"><img src="./assets/characters/13.png"><img
+                src="./assets/characters/14.png"><img src="./assets/characters/15.png"><img
+                src="./assets/episodes/1.jpg"><img src="./assets/episodes/2.jpg"><img src="./assets/episodes/3.jpg"><img
+                src="./assets/episodes/4.jpg"><img src="./assets/episodes/5.jpg"><img src="./assets/episodes/6.jpg"><img
+                src="./assets/episodes/7.jpg"><img src="./assets/episodes/8.jpg"><img src="./assets/episodes/9.jpg"><img
+                src="./assets/episodes/10.jpg"><img src="./assets/episodes/11.jpg"><img
+                src="./assets/episodes/12.jpg"><img src="./assets/episodes/13.jpg"><img
+                src="./assets/episodes/14.jpg"><img src="./assets/episodes/15.jpg"><img
+                src="./assets/episodes/16.jpg"><img src="./assets/episodes/17.jpg"><img
+                src="./assets/episodes/18.jpg"><img src="./assets/episodes/19.jpg"><img
+                src="./assets/episodes/20.jpg"><img src="./assets/episodes/21.jpg"><img
+                src="./assets/episodes/22.jpg"><img src="./assets/episodes/23.jpg"><img
+                src="./assets/episodes/24.jpg"><img src="./assets/episodes/25.jpg"><img src="./assets/episodes/26.jpg">
         </div>
     </div>
-    
+
     <div class="footer">
         <img src="./icons/facebook.svg" alt="Facebook">
         <img src="./icons/instagram.svg" alt="Instagram">
         <img src="./icons/twitter.svg" alt="Twitter">
     </div>
-    <script>
-        var gallery = document.getElementById("gallery");
-        fetch("characters.json").then(response =>{
-            response.json().then(body =>{
-                let characters = body.characters;
-                characters.forEach((character,i) => {
-                    let img = document.createElement("IMG");
-                    img.src = `./assets/characters/${i+1}.png`;
-                    gallery.append(img);
-                });
-            })
-        }).catch(e => console.log(e));
-        fetch("episodes.json").then(response =>{
-            response.json().then(body =>{
-                let episodes = body.episodes;
-                episodes.forEach((episode,i) => {
-                    let img = document.createElement("IMG");
-                    img.src = `./assets/episodes/${i+1}.jpg`;
-                    gallery.append(img);
-                });
-            })
-        }).catch(e => console.log(e));
-        // Backgrounds
-        for(i = 0; i < 5; i++){
-            let img = document.createElement("IMG");
-            img.src = `./assets/backgrounds/${i+1}.jpg`;
-            gallery.append(img);
-        }
-        // images
-        for(i = 0; i < 7; i++){
-            let img = document.createElement("IMG");
-            img.src = `./assets/images/${i+1}.jpg`;
-            gallery.append(img);
-        }
-    </script>
 </body>
+
 </html>

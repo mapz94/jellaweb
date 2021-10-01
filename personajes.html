@@ -1,66 +1,75 @@
-<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&amp;display=swap" rel="stylesheet">
     <title>Página de Evangelion . Personajes</title>
     <style>
-        html{
+        html {
             height: 100%;
-            /* Permite utilizar el alto completo del documento. */
         }
-        body{
-            margin:0;
+
+        body {
+            margin: 0;
             height: 100%;
             width: 100%;
         }
-        nav > ul > li{
+
+        nav>ul>li {
             display: inline;
             font-size: x-large;
             margin: 1.2rem;
             font-style: italic;
             text-decoration: none;
         }
-        nav > ul{
+
+        nav>ul {
             text-align: center;
         }
-        a, a:hover{
+
+        a,
+        a:hover {
             color: #DF9C38;
             font-family: 'Inconsolata', monospace;
         }
-        .slider > img{
+
+        .slider>img {
             display: block;
             margin: auto;
             width: 60%;
         }
-        .gallery{
+
+        .gallery {
             padding: 1rem;
             display: flex;
         }
-        .gallery > img{
+
+        .gallery>img {
             margin: auto;
-                        
+
         }
-        .footer{
+
+        .footer {
             display: block;
             height: 4rem;
-            background: rgb(238,174,202);
-            background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            background: rgb(238, 174, 202);
+            background: linear-gradient(180deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
             padding: 1rem;
         }
 
-        .content > table{
+        .content>table {
             margin: auto;
         }
 
-        td > img{
+        td>img {
             max-width: 200px;
         }
-        .row{
+
+        .row {
             width: 50%;
             margin: auto;
             padding: 0.5rem;
@@ -69,16 +78,19 @@
             grid-template-columns: repeat(2, 200px);
             grid-gap: 1.5rem;
         }
-        .row > div{
+
+        .row>div {
             margin: auto;
             width: 100%;
         }
-        div > img{
+
+        div>img {
             max-width: 200px;
         }
     </style>
 </head>
-<body >
+
+<body>
     <header>
         <img src="logo.png" alt="Logo">
     </header>
@@ -95,44 +107,36 @@
             <div class="col">
                 <strong>
                     Nombre
-                </strong> 
+                </strong>
             </div>
             <div class="col">
                 <strong>
                     Imagén
                 </strong>
             </div>
+            <div>Shinji Ikari</div><img src="./assets/characters/1.png">
+            <div>Misato Katsuragi</div><img src="./assets/characters/2.png">
+            <div>Rei Ayanami</div><img src="./assets/characters/3.png">
+            <div>Asuka Langley Soryu</div><img src="./assets/characters/4.png">
+            <div>Ritsuko Akagi</div><img src="./assets/characters/5.png">
+            <div>Gendo Ikari</div><img src="./assets/characters/6.png">
+            <div>Ryoji Kaji</div><img src="./assets/characters/7.png">
+            <div>Toji Suzuhara</div><img src="./assets/characters/8.png">
+            <div>Kensuke Aida</div><img src="./assets/characters/9.png">
+            <div>Hikari Horaki</div><img src="./assets/characters/10.png">
+            <div>Maya Ibuki</div><img src="./assets/characters/11.png">
+            <div>Shigeru Aoba</div><img src="./assets/characters/12.png">
+            <div>Kaworu Nagisa</div><img src="./assets/characters/13.png">
+            <div>Yui Ikari</div><img src="./assets/characters/14.png">
+            <div>Pen Pen</div><img src="./assets/characters/15.png">
         </div>
-<!--         <table>
-            <thead>
-                <th>Nombre</th>
-                <th>Imágen</th>
-            </thead>
-            <tbody id="episodes"></tbody>
-        </table> -->
     </div>
     <div class="footer">
         <img src="./icons/facebook.svg" alt="Facebook">
         <img src="./icons/instagram.svg" alt="Instagram">
         <img src="./icons/twitter.svg" alt="Twitter">
     </div>
-    <script>
-        var row = document.getElementById("row");
-        fetch("characters.json").then(response =>{
-            response.json().then(body =>{
-                console.log(body);
-                let characters = body.characters;
-                characters.forEach((character,i) => {
-                    let td = document.createElement("DIV");
-                    td.innerHTML = `${character.romanizedName}`;
-                    row.append(td);
-                    td = document.createElement('DIV');
-                    let img = document.createElement("IMG");
-                    img.src = `./assets/characters/${i+1}.png`;
-                    row.append(img);
-                });
-            })
-        }).catch(e => console.log(e));
-    </script>
+
 </body>
+
 </html>
